@@ -175,10 +175,10 @@ function Blog() {
                 <div className={'section-title'}>Addresses</div>
 
                 {selectedContact.contactAddresses.map(item => {
-                    return item.name ? <div className={'user-row'} key={item.name}>
+                    return <div className={'user-row'} key={item.addressType}>
                         <input value={item.name} onChange={handleChangeAddressName} />
-                        <textarea name={item.name} value={item.value} onChange={handleChangeAddress} />
-                    </div> : null
+                        <textarea name={item.addressType} value={item.address.contactAddresses} onChange={handleChangeAddress} />
+                    </div>
                 })}
 
                 <button onClick={handleAddAddress}>Add New</button>

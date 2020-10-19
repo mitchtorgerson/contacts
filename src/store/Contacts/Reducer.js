@@ -25,7 +25,7 @@ const ACTION_HANDLERS = {
     [Actions.ADD_ADDRESS]: (state, action) => {
         const tempState = Object.assign({}, state);
         tempState.selectedContact = state.selectedContact;
-        tempState.selectedContact.contactAddresses.push(ADDRESS);
+        tempState.selectedContact.contactAddresses.push({...ADDRESS});
         return Object.assign({}, state, tempState);
     },
 
