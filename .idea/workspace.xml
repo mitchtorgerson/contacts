@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5946abab-f034-47d2-a747-5aef1756b5a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/Contacts/Actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/Contacts/Actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/ListHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/ListHeader.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -263,11 +261,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/List/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+            <state relative-caret-position="340">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -275,11 +273,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/List/ListHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="187">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -365,12 +363,12 @@
         <option value="$PROJECT_DIR$/src/components/List/ListItem.js" />
         <option value="$PROJECT_DIR$/src/components/List/styles.css" />
         <option value="$PROJECT_DIR$/src/components/Contacts/styles.css" />
-        <option value="$PROJECT_DIR$/src/components/List/ListHeader.js" />
         <option value="$PROJECT_DIR$/src/store/Contacts/InitialState.js" />
         <option value="$PROJECT_DIR$/src/store/Contacts/Reducer.js" />
         <option value="$PROJECT_DIR$/src/store/Contacts/Actions.js" />
         <option value="$PROJECT_DIR$/src/components/Contacts/index.js" />
         <option value="$PROJECT_DIR$/src/components/List/index.js" />
+        <option value="$PROJECT_DIR$/src/components/List/ListHeader.js" />
       </list>
     </option>
   </component>
@@ -508,12 +506,12 @@
       <workItem from="1570831344189" duration="599000" />
       <workItem from="1574950517555" duration="36920000" />
       <workItem from="1602804905141" duration="24978000" />
-      <workItem from="1603140158580" duration="2383000" />
+      <workItem from="1603140158580" duration="2995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80532000" />
+    <option name="totallyTimeSpent" value="81144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -622,16 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/List/ListHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -675,10 +663,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/List/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+        <state relative-caret-position="340">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/List/ListHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
