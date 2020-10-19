@@ -1,0 +1,43 @@
+.list-title {
+    font-weight: bold;
+    text-align: left;
+}
+
+.list-header {
+    display: flex;
+}
+
+.list-header-item {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: #aaa 1px solid;
+    font-weight: bold;
+    flex: 1;
+}
+
+.list-row {
+    display: flex;
+}
+
+.list-row-item {
+    flex: 1;
+    text-align: left;
+    padding: 10px 15px;
+}
+
+.list-item {
+    cursor: pointer;
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: #aaa 1px solid;
+}
+
+.list-item .user-name {
+    font-style: italic;
+    color: #aaa;
+    font-size: 90%;
+}
+
+.list-item:hover {
+    background: #efefef;
+}
