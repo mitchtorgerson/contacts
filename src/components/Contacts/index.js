@@ -58,6 +58,7 @@ function Blog() {
 
     const [filteredContacts, setfilteredContacts] = useState([]);
     const [filteredFamily, setFilteredFamily] = useState([]);
+    const [searchText, setSearchText] = useState();
 
     useEffect(() => {
         dispatch(getContacts());
@@ -72,6 +73,12 @@ function Blog() {
             dispatch(getContacts());
         }
     }, [saved]);
+
+    useEffect(() => {
+        setfilteredContacts(contacts.filter(
+            c => (c.employeeId.match(searchText) || c.lastName.match(searchText))
+        ));
+    }, [searchText]);
 
     // handle methods
     const handleAddContact = () => {
@@ -118,10 +125,14 @@ function Blog() {
 
     };
 
+    const handleSearchText = e => {
+        setSearchText(e.target.value);
+    };
+
     const renderGettingContacts = () => {
         return (
             <div className={'no-content-row'}>
-                Getting blog posts... Please wait...
+                Getting contacts... Please wait...
             </div>
         );
     };
@@ -157,7 +168,7 @@ function Blog() {
 
     const renderContactList = () => {
         return (
-            <Fragment>
+            <div className={'contact-container'}>
                 <List
                     data={filteredContacts}
                     action={handleSelectContact}
@@ -165,7 +176,7 @@ function Blog() {
                     showDetails
                 />
                 <button onClick={handleAddContact}>Add New</button>
-            </Fragment>
+            </div>
         );
     };
 
@@ -207,7 +218,7 @@ function Blog() {
                 <div className={'contact-column'}>
                     <header>Contacts</header>
                     <div>
-                        <input type={'text'} placeholder={'Search by ID or Last Name'} />
+                        <input type={'text'} placeholder={'Search by ID or Last Name'} value={searchText} onChange={handleSearchText} />
                         <button onClick={handleSearchByContact}>Search</button>
                     </div>
                     {renderContactList()}
