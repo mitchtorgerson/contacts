@@ -57,6 +57,7 @@ function Blog() {
     const dispatch = useDispatch();
 
     const [filteredContacts, setfilteredContacts] = useState([]);
+    const [filteredFamily, setFilteredFamily] = useState([]);
 
     useEffect(() => {
         dispatch(getContacts());
@@ -190,7 +191,7 @@ function Blog() {
             <Fragment>
                 <List
                     title={'Family'}
-                    data={filteredContacts}
+                    data={filteredFamily}
                     action={handleSelectContact}
                     columns={familyColumnList}
                     showDetails
