@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5946abab-f034-47d2-a747-5aef1756b5a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/components/Contacts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/Contacts/Actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/Contacts/Actions.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -163,23 +165,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="288" />
+          <entry key="js" value="365" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="288" />
+          <entry key="JavaScript" value="365" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Contacts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="134" column="32" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
+            <state relative-caret-position="443">
+              <caret line="221" column="25" lean-forward="true" selection-start-line="221" selection-start-column="25" selection-end-line="221" selection-end-column="25" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -190,8 +192,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/Contacts/Actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+            <state relative-caret-position="341">
+              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -261,11 +263,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/List/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+            <state relative-caret-position="391">
+              <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -322,10 +324,12 @@
       <find>changeValue</find>
       <find>renderContacts</find>
       <find>renderContent</find>
-      <find>handleSelectContact</find>
       <find>setSelectedContact</find>
       <find>Save</find>
       <find>handleSearchText</find>
+      <find>handleSelectContact</find>
+      <find>handleSearch</find>
+      <find>handleSearchBy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -362,11 +366,11 @@
         <option value="$PROJECT_DIR$/src/components/List/styles.css" />
         <option value="$PROJECT_DIR$/src/components/Contacts/styles.css" />
         <option value="$PROJECT_DIR$/src/components/List/ListHeader.js" />
-        <option value="$PROJECT_DIR$/src/components/List/index.js" />
-        <option value="$PROJECT_DIR$/src/store/Contacts/Actions.js" />
         <option value="$PROJECT_DIR$/src/store/Contacts/InitialState.js" />
         <option value="$PROJECT_DIR$/src/store/Contacts/Reducer.js" />
+        <option value="$PROJECT_DIR$/src/store/Contacts/Actions.js" />
         <option value="$PROJECT_DIR$/src/components/Contacts/index.js" />
+        <option value="$PROJECT_DIR$/src/components/List/index.js" />
       </list>
     </option>
   </component>
@@ -425,6 +429,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Contacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contacts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="List" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="contacts" type="b2602c69:ProjectViewProjectNode" />
@@ -497,12 +508,12 @@
       <workItem from="1570831344189" duration="599000" />
       <workItem from="1574950517555" duration="36920000" />
       <workItem from="1602804905141" duration="24978000" />
-      <workItem from="1603140158580" duration="1926000" />
+      <workItem from="1603140158580" duration="2383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80075000" />
+    <option name="totallyTimeSpent" value="80532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -611,16 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/List/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/List/ListHeader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -645,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/Contacts/Actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/Contacts/Reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -662,12 +656,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/Contacts/Actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Contacts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="134" column="32" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
+        <state relative-caret-position="443">
+          <caret line="221" column="25" lean-forward="true" selection-start-line="221" selection-start-column="25" selection-end-line="221" selection-end-column="25" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/List/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

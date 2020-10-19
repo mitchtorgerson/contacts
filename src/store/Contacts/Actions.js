@@ -42,6 +42,16 @@ export function saveContact(contact) {
     };
 }
 
+export function deleteContact(id) {
+    return dispatch => {
+        const url = `${baseUrl}Contacts/${id}`;
+
+        return rest.delete(url).then(response => {
+            dispatch({type: Actions.FINISH_SAVE_CONTACT, contacts: response.data});
+        })
+    };
+}
+
 export function addAddress() {
     return dispatch => {
         dispatch({type: Actions.ADD_ADDRESS});
@@ -59,3 +69,5 @@ export function changeValue(prop, val) {
         dispatch({type: Actions.CHANGE_VALUE, prop, val});
     };
 }
+
+

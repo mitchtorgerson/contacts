@@ -8,7 +8,8 @@ function List({
     action,
     columns,
     title,
-    showDetails
+    showDetails,
+    deleteAction
 }) {
     return (
         <Fragment>
@@ -19,6 +20,9 @@ function List({
                 {showDetails && <div className={'list-row-item'}>
                     <button onClick={() => action(item)}>Details</button>
                 </div>}
+                <div className={'list-row-item'}>
+                    <button onClick={() => deleteAction(item)}>Delete</button>
+                </div>
                 </div>))}
         </Fragment>
     );

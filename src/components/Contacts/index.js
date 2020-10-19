@@ -6,6 +6,7 @@ import {
     saveContact,
     addAddress,
     getContacts,
+    deleteContact,
     setSelectedContact,
     changeValue
 } from '../../store/Contacts/Actions';
@@ -97,8 +98,8 @@ function Blog() {
         dispatch(setSelectedContact(contact));
     };
 
-    const handleSearchByContact = e => {
-
+    const handleDeleteContact = contact => {
+        dispatch(deleteContact(contact.id));
     };
 
     const handleChangeEmployeeId = e => {
@@ -172,6 +173,7 @@ function Blog() {
                 <List
                     data={filteredContacts}
                     action={handleSelectContact}
+                    deleteAction={handleDeleteContact}
                     columns={columnList}
                     showDetails
                 />
@@ -219,7 +221,7 @@ function Blog() {
                     <header>Contacts</header>
                     <div>
                         <input type={'text'} placeholder={'Search by ID or Last Name'} value={searchText} onChange={handleSearchText} />
-                        <button onClick={handleSearchByContact}>Search</button>
+                        <button onClick={handleSearchText}>Search</button>
                     </div>
                     {renderContactList()}
                 </div>
